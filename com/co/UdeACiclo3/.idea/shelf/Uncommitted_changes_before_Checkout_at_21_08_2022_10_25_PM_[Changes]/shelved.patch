@@ -1,0 +1,27 @@
+Index: Empresa.java
+===================================================================
+diff --git a/Empresa.java b/Empresa.java
+--- a/Empresa.java	
++++ b/Empresa.java	
+@@ -3,6 +3,6 @@
+ public class Empresa {
+ 
+     public void ImprimirEmpresa (String NombreEmpresa) {
+-        System.out.println("vuelve pronto Att: "+ NombreEmpresa);
++        System.out.println("Vuelve Pronto Att: "+ NombreEmpresa);
+     }
+ }
+Index: Usuarios.java
+===================================================================
+diff --git a/Usuarios.java b/Usuarios.java
+--- a/Usuarios.java	
++++ b/Usuarios.java	
+@@ -2,7 +2,7 @@
+ 
+ public class Usuarios {
+     public void ImprimirUsuarios (String name){
+-        System.out.println("El usuarios es:" +name);
++        System.out.println("El usuarios es: " +name);
+     }
+ }
+ 
