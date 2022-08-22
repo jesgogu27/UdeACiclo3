@@ -2,6 +2,6 @@ package com.co.UdeACiclo3;
 
 public class Transaction{
     public void ImprimirTransaction (String concepto){
-        Sysmen.out.println("El valor de la transaccion fue: " +concepto);
+        System.out.println("El valor de la transaccion fue: " +concepto);
     }
 }
